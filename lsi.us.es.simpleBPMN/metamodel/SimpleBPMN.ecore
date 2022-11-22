@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="SimpleBPMN" nsURI="http://eclipse.org/eugenia/simplebpmn" nsPrefix="sbpmn">
+  <eClassifiers xsi:type="ecore:EClass" name="BPMNProcess">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+        eType="#//BPMNElement" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" upperBound="-1"
+        eType="#//Parameter" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="BPMNElement" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Swimlane" abstract="true" eSuperTypes="#//BPMNElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Lane" eSuperTypes="#//Swimlane">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="flowObjects" upperBound="-1"
+        eType="#//FlowObject" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Pool" eSuperTypes="#//Swimlane">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lanes" upperBound="-1"
+        eType="#//Lane" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConnectingObject" abstract="true" eSuperTypes="#//BPMNElement">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="from" eType="#//FlowObject"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="to" eType="#//FlowObject"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MessageFlow" eSuperTypes="#//ConnectingObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SequenceFlow" eSuperTypes="#//ConnectingObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Association" eSuperTypes="#//ConnectingObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="FlowObject" abstract="true" eSuperTypes="#//BPMNElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Gateway" abstract="true" eSuperTypes="#//FlowObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="XOR" eSuperTypes="#//Gateway"/>
+  <eClassifiers xsi:type="ecore:EClass" name="OR" eSuperTypes="#//Gateway"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AND" eSuperTypes="#//Gateway"/>
+  <eClassifiers xsi:type="ecore:EClass" name="StartEvent" eSuperTypes="#//Event"/>
+  <eClassifiers xsi:type="ecore:EClass" name="IntermediateEvent" eSuperTypes="#//Event"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EndEvent" eSuperTypes="#//Event"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity" abstract="true" eSuperTypes="#//FlowObject">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" eType="#//Parameter"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Artifact" abstract="true" eSuperTypes="#//BPMNElement"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataObject" eSuperTypes="#//Artifact"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Group" eSuperTypes="#//Artifact">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="elements" upperBound="-1"
+        eType="#//BPMNElement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Event" abstract="true" eSuperTypes="#//FlowObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Task" abstract="true" eSuperTypes="#//Activity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Subprocess" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="artifacts" upperBound="-1"
+        eType="#//Artifact" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UserTask" eSuperTypes="#//Task">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="user" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SendTask" eSuperTypes="#//Task"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ScriptTask" eSuperTypes="#//Task"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ServiceTask" eSuperTypes="#//Task"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ReceiveTask" eSuperTypes="#//Task"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ManualTask" eSuperTypes="#//Task"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Parameter"/>
+</ecore:EPackage>

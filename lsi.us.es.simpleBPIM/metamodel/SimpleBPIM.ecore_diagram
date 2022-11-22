@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmi:id="_ZEASYP6dEeamcuMavmiPNw" type="Ecore" name="SimpleBPIM.ecore_diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_dJCOEP6dEeamcuMavmiPNw" type="2001" fontName="Segoe UI" fontHeight="11" bold="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dJEDQP6dEeamcuMavmiPNw" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dJEqUP6dEeamcuMavmiPNw" type="7001">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dJEqUf6dEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dJEqUv6dEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dJEqU_6dEeamcuMavmiPNw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dJEqVP6dEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dJEqVf6dEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dJEqVv6dEeamcuMavmiPNw" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dJEqV_6dEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dJEqWP6dEeamcuMavmiPNw"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="SimpleBPIM.ecore#//ProcessEngine"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dJCOEf6dEeamcuMavmiPNw" x="-224" y="189"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_hpuLAP6dEeamcuMavmiPNw" type="2001" fontName="Segoe UI" fontHeight="11" bold="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hpvZIP6dEeamcuMavmiPNw" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hpvZIf6dEeamcuMavmiPNw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_XQMcEAG2EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessDefinition/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XQO4UAG2EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ZpcycAG2EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessDefinition/key"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ZpcycQG2EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_At9v0AG3EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessDefinition/category"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_At9v0QG3EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_FVyPgAG3EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessDefinition/description"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FVy2kAG3EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_N7HGkAG3EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessDefinition/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_N7HGkQG3EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_RPdMMAG3EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessDefinition/version"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RPdMMQG3EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_YTCjsAG3EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessDefinition/suspended"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_YTCjsQG3EeemcuMavmiPNw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hpvZIv6dEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hpvZI_6dEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hpvZJP6dEeamcuMavmiPNw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hpvZJf6dEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hpvZJv6dEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_hpvZJ_6dEeamcuMavmiPNw" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_hpvZKP6dEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_hpvZKf6dEeamcuMavmiPNw"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="SimpleBPIM.ecore#//ProcessDefinition"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hpuLAf6dEeamcuMavmiPNw" x="50" y="174" width="280"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_DGLTsP6eEeamcuMavmiPNw" type="2001" fontName="Segoe UI" fontHeight="11" bold="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DGMh0P6eEeamcuMavmiPNw" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DGNI4P6eEeamcuMavmiPNw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_Nyd90P7LEeamcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessInstance/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Nyd90f7LEeamcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eT2HoP7aEeamcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessInstance/ended"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eT2Hof7aEeamcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_j65PsP7aEeamcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessInstance/suspended"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_j65Psf7aEeamcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_7TEQAP7aEeamcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessInstance/businessKey"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7TEQAf7aEeamcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_FVIEMAHjEeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessInstance/startUserId"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FVIEMQHjEeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_AddxsAHjEeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessInstance/durationInMillis"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AddxsQHjEeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_9IuqgAHiEeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessInstance/startTime"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9IuqgQHiEeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_-usiwAHiEeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ProcessInstance/endTime"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-usiwQHiEeemcuMavmiPNw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DGNI4f6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DGNI4v6eEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DGNI4_6eEeamcuMavmiPNw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DGNI5P6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DGNI5f6eEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_DGNI5v6eEeamcuMavmiPNw" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_DGNI5_6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_DGNI6P6eEeamcuMavmiPNw"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="SimpleBPIM.ecore#//ProcessInstance"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DGLTsf6eEeamcuMavmiPNw" x="540" y="175"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_QW6xAP6eEeamcuMavmiPNw" type="2001" fontName="Segoe UI" fontHeight="11" bold="true" italic="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_QW7YEP6eEeamcuMavmiPNw" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QW7_IP6eEeamcuMavmiPNw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_-XXQsABJEeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//Activity/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-XXQsQBJEeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Rjd5MABKEeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//Activity/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Rjd5MQBKEeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_MvdQQABNEeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//Activity/description"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MvdQQQBNEeemcuMavmiPNw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QW7_If6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QW7_Iv6eEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QW7_I_6eEeamcuMavmiPNw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QW7_JP6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QW7_Jf6eEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_QW7_Jv6eEeamcuMavmiPNw" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_QW7_J_6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_QW7_KP6eEeamcuMavmiPNw"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="SimpleBPIM.ecore#//Activity"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QW6xAf6eEeamcuMavmiPNw" x="42" y="560"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_dJAjcP6eEeamcuMavmiPNw" type="2001" fontName="Segoe UI" fontHeight="11" bold="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dJBKgP6eEeamcuMavmiPNw" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dJBKgf6eEeamcuMavmiPNw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_7P7yIAG8EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ActivityInstance/id"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7P7yIQG8EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_9LanYAG8EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ActivityInstance/name"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9LanYQG8EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_Xa5hIAG_EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ActivityInstance/startTime"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Xa5hIQG_EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_S2DzMAKfEeeCYNajgUU8Fg" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ActivityInstance/endTime"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_S2DzMQKfEeeCYNajgUU8Fg"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_eT9qsAG_EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ActivityInstance/duration"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_eT9qsQG_EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_q_CPIAG_EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ActivityInstance/canceled"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_q_CPIQG_EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_ydwqgAG_EeemcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ActivityInstance/completedScope"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ydwqgQG_EeemcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="__Y9rMA18EeepeMRW_bLFiQ" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//ActivityInstance/assignee"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__Y9rMQ18EeepeMRW_bLFiQ"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dJBKgv6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dJBKg_6eEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dJBKhP6eEeamcuMavmiPNw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dJBKhf6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dJBKhv6eEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_dJBKh_6eEeamcuMavmiPNw" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_dJBKiP6eEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_dJBKif6eEeamcuMavmiPNw"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="SimpleBPIM.ecore#//ActivityInstance"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dJAjcf6eEeamcuMavmiPNw" x="469" y="546"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_FvI_kP7WEeamcuMavmiPNw" type="2001" fontName="Segoe UI" fontHeight="11" bold="true" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_FvI_kv7WEeamcuMavmiPNw" type="5001"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_FvI_k_7WEeamcuMavmiPNw" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_pPujMP7WEeamcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//Variable/varId"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_pPujMf7WEeamcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_FSAiMP7XEeamcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//Variable/value"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_FSAiMf7XEeamcuMavmiPNw"/>
+      </children>
+      <children xmi:type="notation:Node" xmi:id="_IfJzoP7XEeamcuMavmiPNw" type="3001">
+        <element xmi:type="ecore:EAttribute" href="SimpleBPIM.ecore#//Variable/type"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IfJzof7XEeamcuMavmiPNw"/>
+      </children>
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FvI_lP7WEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FvI_lf7WEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_FvI_lv7WEeamcuMavmiPNw" type="7002">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FvI_l_7WEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FvI_mP7WEeamcuMavmiPNw"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_FvI_mf7WEeamcuMavmiPNw" type="7003">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_FvI_mv7WEeamcuMavmiPNw"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_FvI_m_7WEeamcuMavmiPNw"/>
+    </children>
+    <element xmi:type="ecore:EClass" href="SimpleBPIM.ecore#//Variable"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FvI_kf7WEeamcuMavmiPNw" x="875" y="287"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_ZEASYf6dEeamcuMavmiPNw"/>
+  <element xmi:type="ecore:EPackage" href="SimpleBPIM.ecore#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_pcY2EP6dEeamcuMavmiPNw" type="4003" source="_dJCOEP6dEeamcuMavmiPNw" target="_hpuLAP6dEeamcuMavmiPNw" routing="Rectilinear" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_pcarQP6dEeamcuMavmiPNw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pcarQf6dEeamcuMavmiPNw" x="32" y="-19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pcarQv6dEeamcuMavmiPNw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pcarQ_6dEeamcuMavmiPNw" x="-13" y="15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_pcY2Ef6dEeamcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ProcessEngine/definitions"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pcY2Ev6dEeamcuMavmiPNw" points="[-41, 8, -245, 67]$[-41, 57, -245, 116]$[34, 57, -170, 116]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pcm4gP6dEeamcuMavmiPNw" id="(0.7202380952380952,0.8636363636363636)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pcnfkP6dEeamcuMavmiPNw" id="(0.6077586206896551,0.030303030303030304)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Gc_egP6eEeamcuMavmiPNw" type="4003" source="_hpuLAP6dEeamcuMavmiPNw" target="_DGLTsP6eEeamcuMavmiPNw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_GdAsoP6eEeamcuMavmiPNw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GdAsof6eEeamcuMavmiPNw" x="37" y="-28"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GdAsov6eEeamcuMavmiPNw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GdAso_6eEeamcuMavmiPNw" x="13" y="17"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Gc_egf6eEeamcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ProcessDefinition/instances"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Gc_egv6eEeamcuMavmiPNw" points="[33, 6, -304, 6]$[332, 33, -5, 33]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_GdPWIP6eEeamcuMavmiPNw" id="(0.8577586206896551,0.5)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NWhtEA2PEeepeMRW_bLFiQ" id="(0.011764705882352941,0.43434343434343436)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VJsjgP6eEeamcuMavmiPNw" type="4003" source="_hpuLAP6dEeamcuMavmiPNw" target="_QW6xAP6eEeamcuMavmiPNw" routing="Rectilinear" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VJtKkP6eEeamcuMavmiPNw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VJtKkf6eEeamcuMavmiPNw" x="32" y="-47"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VJtKkv6eEeamcuMavmiPNw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VJtKk_6eEeamcuMavmiPNw" x="-10" y="34"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VJsjgf6eEeamcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ProcessDefinition/activities"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VJsjgv6eEeamcuMavmiPNw" points="[-11, 94, 35, -202]$[-11, 243, 35, -53]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_fljeYP6eEeamcuMavmiPNw" type="4003" source="_QW6xAP6eEeamcuMavmiPNw" target="_dJAjcP6eEeamcuMavmiPNw" routing="Rectilinear" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_flkFcP6eEeamcuMavmiPNw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_flksgP6eEeamcuMavmiPNw" x="36" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_flksgf6eEeamcuMavmiPNw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_flksgv6eEeamcuMavmiPNw" x="-10" y="-24"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_fljeYf6eEeamcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//Activity/instances"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fljeYv6eEeamcuMavmiPNw" points="[120, -10, -583, -91]$[545, -10, -158, -91]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_II028P7aEeamcuMavmiPNw" type="4002" source="_DGLTsP6eEeamcuMavmiPNw" target="_hpuLAP6dEeamcuMavmiPNw" routing="Rectilinear" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_II028_7aEeamcuMavmiPNw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_II029P7aEeamcuMavmiPNw" x="35" y="-15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_II029f7aEeamcuMavmiPNw" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_II029v7aEeamcuMavmiPNw" x="6" y="19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_II028f7aEeamcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ProcessInstance/definition"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_II028v7aEeamcuMavmiPNw" points="[-2, 2, 225, -33]$[-212, 2, 15, -33]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_II3TMP7aEeamcuMavmiPNw" id="(0.00784313725490196,0.7474747474747475)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_II3TMf7aEeamcuMavmiPNw" id="(0.9482758620689655,0.9696969696969697)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kJmkoP7bEeamcuMavmiPNw" type="4003" source="_DGLTsP6eEeamcuMavmiPNw" target="_FvI_kP7WEeamcuMavmiPNw" routing="Rectilinear" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kJmko_7bEeamcuMavmiPNw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kJmkpP7bEeamcuMavmiPNw" x="-22" y="25"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kJmkpf7bEeamcuMavmiPNw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kJmkpv7bEeamcuMavmiPNw" x="-36" y="81"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kJmkof7bEeamcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ProcessInstance/variables"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kJmkov7bEeamcuMavmiPNw" points="[68, 58, -142, -118]$[181, 58, -29, -118]$[181, 123, -29, -53]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kJoZ0P7bEeamcuMavmiPNw" id="(0.6313725490196078,0.062146892655367235)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MEGtMP88EeamcuMavmiPNw" type="4002" source="_dJAjcP6eEeamcuMavmiPNw" target="_dJAjcP6eEeamcuMavmiPNw" routing="Rectilinear" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MEHUQP88EeamcuMavmiPNw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MEHUQf88EeamcuMavmiPNw" x="33" y="-24"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MEHUQv88EeamcuMavmiPNw" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MEH7UP88EeamcuMavmiPNw" x="17" y="62"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MEGtMf88EeamcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ActivityInstance/parentActivity"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MEGtMv88EeamcuMavmiPNw" points="[54, -40, 8, -6]$[54, -35, 8, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MEOB8P88EeamcuMavmiPNw" id="(0.9838709677419355,0.6818181818181818)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MEOB8f88EeamcuMavmiPNw" id="(0.8010752688172043,0.7272727272727273)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_c21DgP88EeamcuMavmiPNw" type="4003" source="_dJAjcP6eEeamcuMavmiPNw" target="_dJAjcP6eEeamcuMavmiPNw" routing="Rectilinear" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_c21qkP88EeamcuMavmiPNw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c21qkf88EeamcuMavmiPNw" x="-65" y="25"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_c22RoP88EeamcuMavmiPNw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_c22Rof88EeamcuMavmiPNw" x="5" y="-37"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_c21Dgf88EeamcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ActivityInstance/childActivities"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_c21Dgv88EeamcuMavmiPNw" points="[-20, 37, -20, 37]$[-20, 100, -20, 100]$[39, 100, 39, 100]$[39, 37, 39, 37]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c27xMP88EeamcuMavmiPNw" id="(0.45698924731182794,0.803030303030303)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c27xMf88EeamcuMavmiPNw" id="(0.45698924731182794,0.803030303030303)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RDuV8AG6EeemcuMavmiPNw" type="4003" source="_DGLTsP6eEeamcuMavmiPNw" target="_dJAjcP6eEeamcuMavmiPNw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RDu9AAG6EeemcuMavmiPNw" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RDu9AQG6EeemcuMavmiPNw" x="3" y="-83"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RDu9AgG6EeemcuMavmiPNw" type="6004">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RDvkEAG6EeemcuMavmiPNw" x="-54" y="47"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RDuV8QG6EeemcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ProcessInstance/childActivities"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RDuV8gG6EeemcuMavmiPNw" points="[-2, 14, 8, -149]$[-80, 166, -70, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RD0ckAG6EeemcuMavmiPNw" id="(0.30980392156862746,0.8983050847457628)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jmiUYAG7EeemcuMavmiPNw" type="4002" source="_dJAjcP6eEeamcuMavmiPNw" target="_QW6xAP6eEeamcuMavmiPNw" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jmi7cAG7EeemcuMavmiPNw" type="6001">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jmi7cQG7EeemcuMavmiPNw" x="36" y="-9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jmi7cgG7EeemcuMavmiPNw" type="6003">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jmi7cwG7EeemcuMavmiPNw" x="3" y="15"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jmiUYQG7EeemcuMavmiPNw" fontName="Segoe UI" fontHeight="11" bold="true"/>
+    <element xmi:type="ecore:EReference" href="SimpleBPIM.ecore#//ActivityInstance/activity"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jmiUYgG7EeemcuMavmiPNw" points="[-21, -3, 178, 24]$[-172, -8, 27, 19]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jnSiUAG7EeemcuMavmiPNw" id="(0.15053763440860216,0.48484848484848486)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jnSiUQG7EeemcuMavmiPNw" id="(0.7625,0.8231292517006803)"/>
+  </edges>
+</notation:Diagram>
